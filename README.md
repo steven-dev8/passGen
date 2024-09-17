@@ -1,4 +1,4 @@
-# PassGEN
+# PassGEN🔑
 
 Este script é um gerador de senhas aleatórias projetado para criar senhas seguras utilizando números pseudoaleatórios. O script oferece um menu interativo que permite ao usuário configurar a senha de acordo com suas preferências e também mantém um histórico das senhas geradas.
 
