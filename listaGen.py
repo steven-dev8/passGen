@@ -19,10 +19,11 @@ def read():
 def listar(conteudo):
     if ' ' in conteudo:
         lista = conteudo.split(' ')
+        lista.pop()
 
         print('NUM    PASSWORD')
         for i, j in enumerate(lista):
-            print(f'\033[32m{i}      \033[33m{j}\033[0m')
+            print(f'\033[32m{i+1}      \033[33m{j}\033[0m')
         print('-=' * 28)
     else:
         print('\033[32mAINDA NÃO FORAM GERADA SENHAS\033[0m')
