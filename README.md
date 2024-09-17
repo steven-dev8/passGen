@@ -17,3 +17,20 @@ Este script é um gerador de senhas aleatórias projetado para criar senhas segu
 3. A senha gerada é exibida para o usuário e armazenada no histórico.
 4. O usuário pode consultar
 
+## Guia de Execução
+
+### Requisitos
+- Python 3 instalado.
+
+### Instruções para Usuários Windows
+
+1. Execute o arquivo `passGen.bat`.
+
+### Instruções para Usuários Linux
+
+1. Abra uma IDE compatível com Python ou o terminal (BASH).
+2. Localize o arquivo `main.py`.
+3. No terminal, execute o seguinte comando:
+
+   ```bash
+   python3 main.py
